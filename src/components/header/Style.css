@@ -1,0 +1,47 @@
+.navbar{
+    width: 100%;
+    height: 10vh;
+}
+.formHeader{
+    width: 70%;
+}
+.inputHeader{
+    margin-right: 30%;
+}
+.linkHeader{
+    font-size: xx-large;
+}
+.btnHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnHeader span{
+    margin-left: 10px;
+}
+.cartItemImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.cartItemDetail{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    flex: 1;
+}
+.cartitem{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.containerCart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containerCart .btn{
+    width: 300px;
+}
