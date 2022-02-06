@@ -11,8 +11,8 @@ const App = () => {
       <div className="app">
         <Header />
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/cart" element={<Cart />} />
+          <Route exact path="/react-shoppingCart/" element={<Home />} />
+          <Route exact path="/react-shoppingCart/cart" element={<Cart />} />
         </Routes>
       </div>
     </BrowserRouter>

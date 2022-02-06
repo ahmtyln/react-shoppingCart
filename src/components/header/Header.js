@@ -11,7 +11,7 @@ function Header() {
 
   return <nav className="navbar navbar-dark bg-dark">
     <div className="container">
-      <Link to="/" className="navbar-brand linkHeader">Shopping Cart</Link>
+      <Link to="/react-shoppingCart/" className="navbar-brand linkHeader">Shopping Cart</Link>
       <form className="d-flex formHeader">
         <input className="inputHeader form-control" type="search" placeholder="Search a Product" aria-label="Search" onChange={(e) => productDispatch({
                 type:"FILTER_BY_SEARCH",
@@ -50,7 +50,7 @@ function Header() {
                     />
                   </span>
                 ))}
-                <Link to= "/cart">
+                <Link to= "/react-shoppingCart/cart">
                   <button type="button" className="btn btn-primary">Go to Cart</button>
                 </Link>
                 </div>
