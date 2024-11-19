@@ -12,7 +12,7 @@ const App = () => {
         <Header />
         <Routes>
           <Route exact path="/react-shoppingCart/" element={<Home />} />
-          <Route exact path="/react-shoppingCart/cart" element={<Cart />} />
+          <Route path="/react-shoppingCart/cart" element={<Cart />} />
         </Routes>
       </div>
     </BrowserRouter>
